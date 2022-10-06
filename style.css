@@ -185,7 +185,18 @@ body {
     max-width: 4rem;
     }
 
+.header .alerts:hover,
+.header .user-name:hover {
+    color: var(--color6);
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
+.header .buttons div:hover {
+    background-color: var(--color7);
+    cursor: pointer;
+    transform: scale(1.05);
+}
 .main {
     grid-area: 2 / 2 / -1 / -1;
     background-color: var(--color3);

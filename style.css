@@ -108,6 +108,7 @@ body {
     z-index: 1;
     display: grid;
     grid-template-rows: 1fr / 2fr;
+    padding-left: 2%;
 }
 
 .header-top-row {
@@ -340,4 +341,3 @@ body {
         grid-row: 3 / 4;
     }
     
-} */ */

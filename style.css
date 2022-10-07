@@ -90,7 +90,7 @@ body {
 }
 
 .sidebar li:active {
-    transform: scale(1.05);
+    transform: scale(0.97);
 }
 .title {
     display: flex;
@@ -198,6 +198,12 @@ body {
     background-color: var(--color7);
     cursor: pointer;
     transform: scale(1.05);
+}
+
+.header .alerts:active,
+.header .user-name:active,
+.header .buttons div:active {
+    transform: scale(1);
 }
 .main {
     grid-area: 2 / 2 / -1 / -1;

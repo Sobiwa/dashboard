@@ -331,9 +331,24 @@ body {
     }
     .sidebar {
         grid-row: 3 / 4;
-        display: flex;
-        justify-content: center;
      }
+
+    .sidebar .contents {
+        display: grid;
+        justify-items: center;
+        grid-template: 1fr 3fr / 1fr 1fr;
+    }
+
+    .contents .title {
+        grid-area: 1 / 1 / 2 / -1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contents ul {
+        padding: 0;
+        margin: 0;
+    }
     .header {
         grid-row: 1 / 2;
     }
